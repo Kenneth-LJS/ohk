@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    --page-background-color: hsl(0, 0%, 92%);
+    --text-font: 'Rubik', sans-serif;
+    --text-letter-spacing: 0.03em;
+
+    --page-y-margin: 12px;
+    @media (min-width: 768px) { & {
+        --page-y-margin: 60px;
+    }}
+
+    --container-x-padding: 16px;
+}

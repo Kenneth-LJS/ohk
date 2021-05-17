@@ -1,0 +1,94 @@
+@use './variables.scss';
+
+body {
+    background-color: var(--page-background-color);
+
+    font-size: 26px;
+    font-family: var(--text-font);
+    letter-spacing: var(--text-letter-spacing);
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+
+    padding: var(--page-y-margin) 12px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.pageContents {
+    width: 100%;
+    max-width: 900px;
+    height: calc(100vh - var(--page-y-margin) * 2);
+
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas: "text-input" "keyboard-log";
+    row-gap: 2rem;
+
+    background-color: transparent;
+}
+
+.textInputContainer {
+    width: 100%;
+    grid-area: text-input;
+
+    background-color: transparent;
+}
+
+.keyboardLogContainer {
+    width: 100%;
+    grid-area: keyboard-log;
+
+    background-color: transparent;
+}
+
+.textInput {
+    width: 100%;
+    height: 100%;
+
+    resize: none;
+    background-color: hsl(0, 0%, 98%);
+
+    border: none;
+    border-radius: 10px;
+    padding: 16px var(--container-x-padding);
+
+    font-size: 1em;
+    font-family: var(--text-font);
+}
+
+.keyboardLogItems {
+    overflow: hidden;
+    height: 100%;
+
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+
+        background: linear-gradient(transparent, var(--page-background-color));
+    }
+}
+
+.keyboardLogItem {
+    height: 60px;
+    padding: 16px var(--container-x-padding);
+
+    overflow: hidden;
+
+    transition: opacity 0.5s, height 0.5s, padding 0.5s;
+
+    &.hidden {
+        opacity: 0;
+        height: 0;
+        padding: 0 var(--container-x-padding);
+    }
+}

@@ -1,0 +1,88 @@
+ABC-XYZ [65-90] / KeyA-Z
+abc-xyz [97-122] / KeyA-Z
+0-9 [48-57] / Digit0-9
+)!@#$%^&*( / Digit0-9
+
+[36]
+
+Shift / ShiftLeft ShiftRight
+Control / ControlLeft ControlRight
+Alt / AltLeft AltRight
+Enter / Enter
+ContextMenu / ContextMenu
+Escape / Escape
+
+[6]
+
+F1-F12 [6]
+` ~ / Backquote
+- _ / Minus
++ = / Equal
+[ { / Bracketleft
+] } / BracketRight
+\ | / Backslash
+; : / Semicolon
+' " / Quote
+, < / Comma
+. > / Period
+/ ? / Slash [11]
+
+
+
+Tab / Tab
+CapsLock / CapsLock
+Backspace / Backspace
+
+Insert / Insert
+Delete / Delete
+Home / Home
+End / End
+PageUp / PageUp
+PageDown / PageDown
+
+[6]
+
+letter frequency:
+ETAOINSRHDLUCMFYWGPBVKXQJZ
+
+
+
+ETAION = eat ion (estimated time of arrival in 0)
+HURDLS = hurdls (hurdles)
+CMFGBP 
+    = CFM GBP (confirm great british pounds)
+    = BGM PCF (bgm pacify)
+    = BPM CFG (beats per min ???)
+    = CMP BFG (camp for big friendly giant)
+VJQK = (ace jack queen king)
+WXYZ = (last 4 letters)
+
+
+
+Symbols
+)!@#$%^&*( / 0123456789
+
+` ~ / Backquote
+- _ / Minus
++ = / Equal
+[ { / Bracketleft
+] } / BracketRight
+\ | / Backslash
+; : / Semicolon
+' " / Quote
+, < / Comma
+. > / Period
+/ ? / Slash [11]
+⌴ / Space
+
+⌴,.
+?'-
+
+()[]`/\>
+
+@#$%^&*
+
+in descending frequency:
+⌴,.-'"():?;[]!`/\>
+
+
